@@ -32,7 +32,6 @@ SFH-551V is a digital optodetector. It delivers a digital output, which can be p
 The photodiode converts the detected light into a photocurrent. With the aid of an integrated lens the light emanating from the plastic Fiber is almost entirely focused on the surface of the diode. At the next stage the trans-impedance amplifier converts the photocurrent into a voltage. In the comparator, the voltage is compared to a reference voltage. In over to ensure good synchronism between the reference and the trans- impedance output voltage, the former is derived from a second circuit of a similar kind, which incorporates a “blind” photodiode. The comparator derives a level shifter with an open collector output stages. Here a catch diode (similar to Schottky-TTL) prevents the saturation of the output transistor, thus limiting the output voltage to the supply voltage.
 
 ---
-
 ## PROCEDURE
 
 -	Connect the power supply with proper polarity to the kit link-B and switch it on.
@@ -64,12 +63,29 @@ The photodiode converts the detected light into a photocurrent. With the aid of 
  
  <img width="838" height="303" alt="image" src="https://github.com/user-attachments/assets/8d9bec6a-254a-428d-80f3-5e453cef0e62" />
 
+---
+
+
+## BLOCK DIAGRAM
+
+<img width="768" height="545" alt="image" src="https://github.com/user-attachments/assets/1e110088-a076-427e-989e-04453114fd53" />
+
+
+
+
 ## TABULATION  
 **Transmission through Digital Link**
 
 <img width="1280" height="1174" alt="image" src="https://github.com/user-attachments/assets/55912d42-86c2-4344-8d98-dcf23c173550" />
 
 ## MODEL GRAPH
+
+<img width="1315" height="682" alt="image" src="https://github.com/user-attachments/assets/8ddde361-3e6c-4398-8dd0-62537054d5fe" />
+
+
+---
+
+## GRAPH
 
 <img width="1280" height="968" alt="image" src="https://github.com/user-attachments/assets/b8ad9576-478d-4e36-bcaf-b2a33870768b" />
 
